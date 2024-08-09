@@ -6,6 +6,7 @@
       {
         "id": "81301f8adfcc6d3a",
         "type": "tabs",
+        "dimension": 68.19830713422007,
         "children": [
           {
             "id": "53ef366a70793951",
@@ -25,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ENUMERATING/AD enumeration.md",
+                "file": "FINDING SERVICES AND PORTS/SMB service.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,6 +50,7 @@
       {
         "id": "0e3f4b8e7811e860",
         "type": "tabs",
+        "dimension": 31.80169286577993,
         "children": [
           {
             "id": "fcb75a4be4bfca2c",
@@ -188,11 +190,15 @@
   },
   "active": "f8250fa51c320406",
   "lastOpenFiles": [
+    "Screenshot from 2024-08-09 19-52-45.png",
     "FINDING SERVICES AND PORTS/SMB service.md",
-    "Screenshot from 2024-08-08 21-01-02.png",
-    "APPENDIX/CrackMapExec.md",
     "ENUMERATING/AD enumeration.md",
-    "Screenshot from 2024-08-08 20-29-00.png",
+    "Screenshot from 2024-08-09 19-45-02.png",
+    "images/Screenshot from 2024-08-09 19-40-55.png",
+    "images/Screenshot from 2024-08-09 19-27-58.png",
+    "images/Screenshot from 2024-08-08 21-01-02.png",
+    "APPENDIX/CrackMapExec.md",
+    "images/Screenshot from 2024-08-08 20-29-00.png",
     "images/Screenshot from 2024-08-08 20-12-32.png",
     "images/Screenshot from 2024-08-08 20-09-47.png",
     "images/Screenshot from 2024-08-08 20-03-10.png",
@@ -205,7 +211,6 @@
     "EXPLOITATION",
     "ENUMERATING",
     "FINDING SERVICES AND PORTS",
-    "images/Screenshot from 2024-08-07 19-36-46.png",
     "README.md",
     "images"
   ]
