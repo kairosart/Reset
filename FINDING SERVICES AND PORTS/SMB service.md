@@ -50,4 +50,4 @@ In this file the name LILY ONEILL doesn't seem to be an user's name.
 There's a password: **ResetMe123!**
 
 
-**Next step:** [[AD enumeration]]
+**Next step:** [[Initial access]]
