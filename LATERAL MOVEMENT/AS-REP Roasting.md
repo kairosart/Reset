@@ -25,3 +25,5 @@ Use `GetNPUsers.py`, alternatively, we could also use Bloodhound to find them.
 - Copy the hash to file tabatha_hash.txt.
 - Run `john --wordlist=/usr/share/wordlists/rockyou.txt tabatha_hash.txt`    
 	![[Screenshot from 2024-08-11 21-17-33.png]]
+
+**Next step:** [[Bloodhound
