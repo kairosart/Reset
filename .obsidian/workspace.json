@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LATERAL MOVEMENT/Bloodhound.md",
+                "file": "PRIVILEGE ESCALATION/Delegation.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,9 +50,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LATERAL MOVEMENT/AS-REP Roasting.md",
+                "file": "LATERAL MOVEMENT/Bloodhound.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "5a25d75f1f059d8a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Screenshot from 2024-08-15 20-18-54.png"
               }
             }
           }
@@ -138,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LATERAL MOVEMENT/Bloodhound.md",
+                "file": "PRIVILEGE ESCALATION/Delegation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LATERAL MOVEMENT/Bloodhound.md",
+                "file": "PRIVILEGE ESCALATION/Delegation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LATERAL MOVEMENT/Bloodhound.md"
+                "file": "PRIVILEGE ESCALATION/Delegation.md"
               }
             }
           }
@@ -202,23 +212,23 @@
   },
   "active": "f8250fa51c320406",
   "lastOpenFiles": [
-    "Screenshot from 2024-08-15 20-43-32.png",
-    "Screenshot from 2024-08-15 20-18-54.png",
-    "LATERAL MOVEMENT/AS-REP Roasting.md",
     "LATERAL MOVEMENT/Bloodhound.md",
-    "Diagram.svg.xml",
-    "Diagram.svg",
+    "PRIVILEGE ESCALATION/Delegation.md",
+    "LATERAL MOVEMENT/AS-REP Roasting.md",
+    "images/Screenshot from 2024-08-18 13-04-37.png",
+    "images/Screenshot from 2024-08-18 12-49-59.png",
+    "images/Screenshot from 2024-08-15 20-18-54.png",
+    "images/Screenshot from 2024-08-15 20-43-32.png",
+    "images/Screenshot from 2024-08-12 19-35-27.png",
+    "images/Screenshot from 2024-08-12 20-09-36.png",
+    "images/Screenshot from 2024-08-12 20-00-25.png",
+    "images/Screenshot from 2024-08-12 20-20-45.png",
+    "images/Screenshot from 2024-08-12 20-35-09.png",
+    "images/Screenshot from 2024-08-12 20-37-24.png",
+    "images/Diagram.svg.xml",
     "EXPLOITATION/Getting a shell.md",
     "EXPLOITATION/Cracking the hash.md",
-    "images/Screenshot from 2024-08-08 20-09-47.png",
-    "images/Screenshot from 2024-08-13 21-31-00.png",
-    "images/Screenshot from 2024-08-13 20-58-38.png",
-    "images/Screenshot from 2024-08-13 20-21-19.png",
-    "images/Screenshot from 2024-08-13 20-17-31.png",
-    "images/Screenshot from 2024-08-13 20-11-17.png",
     "index.md",
-    "images/Screenshot from 2024-08-12 20-37-24.png",
-    "images/Screenshot from 2024-08-12 20-35-09.png",
     "APPENDIX/Neo4j.md",
     "APPENDIX/CrackMapExec.md",
     "LATERAL MOVEMENT",
