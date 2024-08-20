@@ -6,7 +6,7 @@
       {
         "id": "81301f8adfcc6d3a",
         "type": "tabs",
-        "dimension": 72.45657568238212,
+        "dimension": 72.45657568238214,
         "children": [
           {
             "id": "53ef366a70793951",
@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LATERAL MOVEMENT/Bloodhound.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,12 +69,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "0e3f4b8e7811e860",
         "type": "tabs",
-        "dimension": 27.543424317617866,
+        "dimension": 27.54342431761787,
         "children": [
           {
             "id": "fcb75a4be4bfca2c",
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LATERAL MOVEMENT/AS-REP Roasting.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LATERAL MOVEMENT/AS-REP Roasting.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LATERAL MOVEMENT/AS-REP Roasting.md"
+                "file": "index.md"
               }
             }
           }
@@ -212,12 +212,15 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "fa9d6ee29efc8b56",
+  "active": "235dc1d1c74bee3a",
   "lastOpenFiles": [
+    "README.md",
+    "PRIVILEGE ESCALATION/Delegation.md",
+    "images/Screenshot from 2024-08-20 11-48-59.png",
+    "images/Screenshot from 2024-08-20 11-46-09.png",
     "LATERAL MOVEMENT/Bloodhound.md",
     "LATERAL MOVEMENT/AS-REP Roasting.md",
     "images/Screenshot from 2024-08-19 20-00-04.png",
-    "PRIVILEGE ESCALATION/Delegation.md",
     "EXPLOITATION/Getting a shell.md",
     "EXPLOITATION/Cracking the hash.md",
     "images/Screenshot from 2024-08-19 19-27-32.png",
@@ -227,8 +230,6 @@
     "images/Screenshot from 2024-08-18 12-49-59.png",
     "images/Screenshot from 2024-08-15 20-43-32.png",
     "images/Screenshot from 2024-08-12 19-35-27.png",
-    "images/Screenshot from 2024-08-12 20-09-36.png",
-    "images/Screenshot from 2024-08-12 20-00-25.png",
     "images/Diagram.svg.xml",
     "index.md",
     "APPENDIX/Neo4j.md",
@@ -242,7 +243,6 @@
     "EXPLOITATION",
     "ENUMERATING",
     "FINDING SERVICES AND PORTS",
-    "README.md",
     "images"
   ]
 }

