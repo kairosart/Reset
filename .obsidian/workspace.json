@@ -6,7 +6,6 @@
       {
         "id": "81301f8adfcc6d3a",
         "type": "tabs",
-        "dimension": 72.45657568238214,
         "children": [
           {
             "id": "53ef366a70793951",
@@ -14,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "FINDING SERVICES AND PORTS/SMB service.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -28,6 +28,7 @@
               "state": {
                 "file": "LATERAL MOVEMENT/AS-REP Roasting.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -40,6 +41,7 @@
               "state": {
                 "file": "PRIVILEGE ESCALATION/Delegation.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -52,6 +54,7 @@
               "state": {
                 "file": "index.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -64,24 +67,9 @@
               "state": {
                 "file": "EXPLOITATION/Getting a shell.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "0e3f4b8e7811e860",
-        "type": "tabs",
-        "dimension": 27.54342431761787,
-        "children": [
-          {
-            "id": "fcb75a4be4bfca2c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -150,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "FINDING SERVICES AND PORTS/SMB service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "FINDING SERVICES AND PORTS/SMB service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,8 +178,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "FINDING SERVICES AND PORTS/SMB service.md"
               }
+            }
+          },
+          {
+            "id": "71a7f3ce0cafd751",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "61095e9a01bd282c",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
             }
           }
         ]
@@ -209,40 +213,47 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "webpage-html-export:Export Vault to HTML": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "juggl:Juggl global graph": false,
+      "publish:Publish changes...": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "235dc1d1c74bee3a",
+  "active": "53ef366a70793951",
   "lastOpenFiles": [
-    "README.md",
+    "index.md",
     "PRIVILEGE ESCALATION/Delegation.md",
-    "images/Screenshot from 2024-08-20 11-48-59.png",
-    "images/Screenshot from 2024-08-20 11-46-09.png",
     "LATERAL MOVEMENT/Bloodhound.md",
     "LATERAL MOVEMENT/AS-REP Roasting.md",
-    "images/Screenshot from 2024-08-19 20-00-04.png",
+    "FINDING SERVICES AND PORTS/SMB service.md",
+    "FINDING SERVICES AND PORTS/Nmap.md",
+    "EXPLOITATION/Initial access.md",
     "EXPLOITATION/Getting a shell.md",
     "EXPLOITATION/Cracking the hash.md",
-    "images/Screenshot from 2024-08-19 19-27-32.png",
-    "images/Screenshot from 2024-08-15 20-18-54.png",
-    "images/Screenshot from 2024-08-18 13-10-03.png",
-    "images/Screenshot from 2024-08-18 13-04-37.png",
-    "images/Screenshot from 2024-08-18 12-49-59.png",
-    "images/Screenshot from 2024-08-15 20-43-32.png",
-    "images/Screenshot from 2024-08-12 19-35-27.png",
-    "images/Diagram.svg.xml",
-    "index.md",
     "APPENDIX/Neo4j.md",
-    "APPENDIX/CrackMapExec.md",
-    "LATERAL MOVEMENT",
-    "EXPLOITATION/Initial access.md",
-    "FINDING SERVICES AND PORTS/SMB service.md",
-    "APPENDIX",
-    "FINDING SERVICES AND PORTS/Nmap.md",
-    "images/PRIVILEGE ESCALATION",
-    "EXPLOITATION",
-    "ENUMERATING",
-    "FINDING SERVICES AND PORTS",
-    "images"
+    "docs/lib/rss.xml",
+    "README.md",
+    "docs/README.html",
+    "docs/images/Diagram.svg",
+    "docs/docs/index.html",
+    "docs/docs/PRIVILEGE ESCALATION/Delegation.html",
+    "docs/docs/PRIVILEGE ESCALATION",
+    "docs/docs/lib/media/874d8b8e340f75575caa.svg",
+    "docs/docs/lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "docs/docs/lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "docs/docs/lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "docs/docs/lib/fonts/b5f0f109bc88052d4000.woff2",
+    "docs/docs/lib/fonts/94f2f163d4b698242fef.otf",
+    "docs/docs/images/Screenshot from 2024-08-20 11-48-59.png",
+    "docs/docs/images/Screenshot from 2024-08-20 11-46-09.png",
+    "docs/docs/images/Screenshot from 2024-08-19 20-00-04.png",
+    "docs/docs/images/Screenshot from 2024-08-19 19-27-32.png",
+    "docs/docs/images/Screenshot from 2024-08-18 13-10-03.png",
+    "docs/docs/images/Screenshot from 2024-08-18 13-04-37.png",
+    "docs/docs/images/Screenshot from 2024-08-18 12-49-59.png",
+    "docs/docs/images/Screenshot from 2024-08-15 20-43-32.png",
+    "APPENDIX/CrackMapExec.md"
   ]
 }

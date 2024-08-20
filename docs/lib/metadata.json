@@ -1,0 +1,203 @@
+{
+  "vaultName": "Reset",
+  "lastExport": 1724178226188,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "APPENDIX/CrackMapExec.md",
+    "APPENDIX/Neo4j.md",
+    "EXPLOITATION/Cracking the hash.md",
+    "EXPLOITATION/Getting a shell.md",
+    "EXPLOITATION/Initial access.md",
+    "FINDING SERVICES AND PORTS/Nmap.md",
+    "FINDING SERVICES AND PORTS/SMB service.md",
+    "LATERAL MOVEMENT/AS-REP Roasting.md",
+    "LATERAL MOVEMENT/Bloodhound.md",
+    "PRIVILEGE ESCALATION/Delegation.md",
+    "index.md",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg"
+  ],
+  "mainDependencies": [
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg"
+  ],
+  "fileInfo": {
+    "APPENDIX/CrackMapExec.md": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 2040,
+      "exportedPath": "APPENDIX/CrackMapExec.html",
+      "dependencies": []
+    },
+    "APPENDIX/Neo4j.md": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 1535,
+      "exportedPath": "APPENDIX/Neo4j.html",
+      "dependencies": []
+    },
+    "EXPLOITATION/Cracking the hash.md": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 936,
+      "exportedPath": "EXPLOITATION/Cracking the hash.html",
+      "dependencies": []
+    },
+    "EXPLOITATION/Getting a shell.md": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 415,
+      "exportedPath": "EXPLOITATION/Getting a shell.html",
+      "dependencies": []
+    },
+    "EXPLOITATION/Initial access.md": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 2284,
+      "exportedPath": "EXPLOITATION/Initial access.html",
+      "dependencies": []
+    },
+    "FINDING SERVICES AND PORTS/Nmap.md": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 713,
+      "exportedPath": "FINDING SERVICES AND PORTS/Nmap.html",
+      "dependencies": []
+    },
+    "FINDING SERVICES AND PORTS/SMB service.md": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 1144,
+      "exportedPath": "FINDING SERVICES AND PORTS/SMB service.html",
+      "dependencies": []
+    },
+    "LATERAL MOVEMENT/AS-REP Roasting.md": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 2175,
+      "exportedPath": "LATERAL MOVEMENT/AS-REP Roasting.html",
+      "dependencies": []
+    },
+    "LATERAL MOVEMENT/Bloodhound.md": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 3964,
+      "exportedPath": "LATERAL MOVEMENT/Bloodhound.html",
+      "dependencies": []
+    },
+    "PRIVILEGE ESCALATION/Delegation.md": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 1253,
+      "exportedPath": "PRIVILEGE ESCALATION/Delegation.html",
+      "dependencies": []
+    },
+    "index.md": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 487,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1724178226188,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    }
+  }
+}
