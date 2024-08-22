@@ -9,3 +9,16 @@ Test your penetration skills, bypass security measures, and infiltrate into the 
 
 Find all the flags!
 
+**STEPS**
+
+[[Nmap]]
+[[SMB service]]
+[[Initial access]]
+[[Cracking the hash]]
+[[Getting a shell]]
+[[AS-REP Roasting]]
+[[Bloodhound]]
+[[Delegation]]
+
+
+---

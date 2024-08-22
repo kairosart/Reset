@@ -1,6 +1,6 @@
 {
   "settingsVersion": "1.8.01",
-  "makeOfflineCompatible": false,
+  "makeOfflineCompatible": true,
   "inlineAssets": true,
   "includePluginCSS": "",
   "includeSvelteCSS": true,
@@ -19,8 +19,8 @@
   "makeNamesWebStyle": false,
   "onlyExportModified": true,
   "deleteOldFiles": true,
-  "addThemeToggle": true,
-  "addOutline": true,
+  "addThemeToggle": false,
+  "addOutline": false,
   "addFileNav": true,
   "addSearchBar": false,
   "addGraphView": false,
