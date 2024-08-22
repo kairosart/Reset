@@ -1,0 +1,476 @@
+{
+  "vaultName": "Reset",
+  "lastExport": 1724352507932,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "APPENDIX/CrackMapExec.md",
+    "APPENDIX/Neo4j.md",
+    "EXPLOITATION/Cracking the hash.md",
+    "EXPLOITATION/Getting a shell.md",
+    "EXPLOITATION/Initial access.md",
+    "FINDING SERVICES AND PORTS/Nmap.md",
+    "FINDING SERVICES AND PORTS/SMB service.md",
+    "images/Diagram.svg.xml",
+    "images/Screenshot from 2024-08-07 19-36-46.png",
+    "images/Screenshot from 2024-08-07 19-44-09.png",
+    "images/Screenshot from 2024-08-07 20-46-03.png",
+    "images/Screenshot from 2024-08-08 20-03-10.png",
+    "images/Screenshot from 2024-08-08 20-09-47.png",
+    "images/Screenshot from 2024-08-08 20-12-32.png",
+    "images/Screenshot from 2024-08-08 20-29-00.png",
+    "images/Screenshot from 2024-08-08 21-01-02.png",
+    "images/Screenshot from 2024-08-09 19-27-58.png",
+    "images/Screenshot from 2024-08-09 19-40-55.png",
+    "images/Screenshot from 2024-08-09 19-45-02.png",
+    "images/Screenshot from 2024-08-09 19-52-45.png",
+    "images/Screenshot from 2024-08-10 20-57-07.png",
+    "images/Screenshot from 2024-08-10 21-07-27.png",
+    "images/Screenshot from 2024-08-11 19-19-56.png",
+    "images/Screenshot from 2024-08-11 20-58-47.png",
+    "images/Screenshot from 2024-08-11 21-04-21.png",
+    "images/Screenshot from 2024-08-11 21-17-33.png",
+    "images/Screenshot from 2024-08-12 19-35-27.png",
+    "images/Screenshot from 2024-08-12 20-00-25.png",
+    "images/Screenshot from 2024-08-12 20-09-36.png",
+    "images/Screenshot from 2024-08-12 20-20-45.png",
+    "images/Screenshot from 2024-08-12 20-35-09.png",
+    "images/Screenshot from 2024-08-12 20-37-24.png",
+    "images/Screenshot from 2024-08-13 20-11-17.png",
+    "images/Screenshot from 2024-08-13 20-17-31.png",
+    "images/Screenshot from 2024-08-13 20-21-19.png",
+    "images/Screenshot from 2024-08-13 20-58-38.png",
+    "images/Screenshot from 2024-08-13 21-31-00.png",
+    "images/Screenshot from 2024-08-15 20-18-54.png",
+    "images/Screenshot from 2024-08-15 20-43-32.png",
+    "images/Screenshot from 2024-08-18 12-49-59.png",
+    "images/Screenshot from 2024-08-18 13-04-37.png",
+    "images/Screenshot from 2024-08-18 13-10-03.png",
+    "images/Screenshot from 2024-08-19 19-27-32.png",
+    "images/Screenshot from 2024-08-19 20-00-04.png",
+    "images/Screenshot from 2024-08-20 11-46-09.png",
+    "images/Screenshot from 2024-08-20 11-48-59.png",
+    "LATERAL MOVEMENT/AS-REP Roasting.md",
+    "LATERAL MOVEMENT/Bloodhound.md",
+    "PRIVILEGE ESCALATION/Delegation.md",
+    "index.md",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg"
+  ],
+  "mainDependencies": [
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg"
+  ],
+  "fileInfo": {
+    "APPENDIX/CrackMapExec.md": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 2040,
+      "exportedPath": "APPENDIX/CrackMapExec.html",
+      "dependencies": []
+    },
+    "APPENDIX/Neo4j.md": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 1535,
+      "exportedPath": "APPENDIX/Neo4j.html",
+      "dependencies": []
+    },
+    "EXPLOITATION/Cracking the hash.md": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 936,
+      "exportedPath": "EXPLOITATION/Cracking the hash.html",
+      "dependencies": []
+    },
+    "EXPLOITATION/Getting a shell.md": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 415,
+      "exportedPath": "EXPLOITATION/Getting a shell.html",
+      "dependencies": []
+    },
+    "EXPLOITATION/Initial access.md": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 2284,
+      "exportedPath": "EXPLOITATION/Initial access.html",
+      "dependencies": []
+    },
+    "FINDING SERVICES AND PORTS/Nmap.md": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 713,
+      "exportedPath": "FINDING SERVICES AND PORTS/Nmap.html",
+      "dependencies": []
+    },
+    "FINDING SERVICES AND PORTS/SMB service.md": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 1144,
+      "exportedPath": "FINDING SERVICES AND PORTS/SMB service.html",
+      "dependencies": []
+    },
+    "LATERAL MOVEMENT/AS-REP Roasting.md": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 2175,
+      "exportedPath": "LATERAL MOVEMENT/AS-REP Roasting.html",
+      "dependencies": []
+    },
+    "LATERAL MOVEMENT/Bloodhound.md": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 3964,
+      "exportedPath": "LATERAL MOVEMENT/Bloodhound.html",
+      "dependencies": []
+    },
+    "PRIVILEGE ESCALATION/Delegation.md": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 1253,
+      "exportedPath": "PRIVILEGE ESCALATION/Delegation.html",
+      "dependencies": []
+    },
+    "index.md": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 640,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "images/Diagram.svg.xml": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 214629,
+      "exportedPath": "images/Diagram.svg.xml",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-07 19-36-46.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 97704,
+      "exportedPath": "images/Screenshot from 2024-08-07 19-36-46.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-07 19-44-09.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 138481,
+      "exportedPath": "images/Screenshot from 2024-08-07 19-44-09.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-07 20-46-03.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 21405,
+      "exportedPath": "images/Screenshot from 2024-08-07 20-46-03.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-08 20-03-10.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 70309,
+      "exportedPath": "images/Screenshot from 2024-08-08 20-03-10.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-08 20-09-47.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 10564,
+      "exportedPath": "images/Screenshot from 2024-08-08 20-09-47.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-08 20-12-32.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 22148,
+      "exportedPath": "images/Screenshot from 2024-08-08 20-12-32.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-08 20-29-00.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 46909,
+      "exportedPath": "images/Screenshot from 2024-08-08 20-29-00.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-08 21-01-02.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 45116,
+      "exportedPath": "images/Screenshot from 2024-08-08 21-01-02.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-09 19-27-58.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 142095,
+      "exportedPath": "images/Screenshot from 2024-08-09 19-27-58.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-09 19-40-55.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 42851,
+      "exportedPath": "images/Screenshot from 2024-08-09 19-40-55.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-09 19-45-02.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 46319,
+      "exportedPath": "images/Screenshot from 2024-08-09 19-45-02.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-09 19-52-45.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 36593,
+      "exportedPath": "images/Screenshot from 2024-08-09 19-52-45.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-10 20-57-07.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 61041,
+      "exportedPath": "images/Screenshot from 2024-08-10 20-57-07.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-10 21-07-27.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 4127,
+      "exportedPath": "images/Screenshot from 2024-08-10 21-07-27.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-11 19-19-56.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 39556,
+      "exportedPath": "images/Screenshot from 2024-08-11 19-19-56.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-11 20-58-47.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 37346,
+      "exportedPath": "images/Screenshot from 2024-08-11 20-58-47.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-11 21-04-21.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 34867,
+      "exportedPath": "images/Screenshot from 2024-08-11 21-04-21.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-11 21-17-33.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 7046,
+      "exportedPath": "images/Screenshot from 2024-08-11 21-17-33.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-12 19-35-27.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 20391,
+      "exportedPath": "images/Screenshot from 2024-08-12 19-35-27.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-12 20-00-25.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 57349,
+      "exportedPath": "images/Screenshot from 2024-08-12 20-00-25.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-12 20-09-36.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 110492,
+      "exportedPath": "images/Screenshot from 2024-08-12 20-09-36.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-12 20-20-45.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 27404,
+      "exportedPath": "images/Screenshot from 2024-08-12 20-20-45.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-12 20-35-09.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 5033,
+      "exportedPath": "images/Screenshot from 2024-08-12 20-35-09.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-12 20-37-24.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 29118,
+      "exportedPath": "images/Screenshot from 2024-08-12 20-37-24.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-13 20-11-17.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 529,
+      "exportedPath": "images/Screenshot from 2024-08-13 20-11-17.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-13 20-17-31.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 69296,
+      "exportedPath": "images/Screenshot from 2024-08-13 20-17-31.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-13 20-21-19.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 10537,
+      "exportedPath": "images/Screenshot from 2024-08-13 20-21-19.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-13 20-58-38.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 11872,
+      "exportedPath": "images/Screenshot from 2024-08-13 20-58-38.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-13 21-31-00.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 136235,
+      "exportedPath": "images/Screenshot from 2024-08-13 21-31-00.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-15 20-18-54.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 17015,
+      "exportedPath": "images/Screenshot from 2024-08-15 20-18-54.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-15 20-43-32.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 14367,
+      "exportedPath": "images/Screenshot from 2024-08-15 20-43-32.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-18 12-49-59.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 16283,
+      "exportedPath": "images/Screenshot from 2024-08-18 12-49-59.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-18 13-04-37.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 19585,
+      "exportedPath": "images/Screenshot from 2024-08-18 13-04-37.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-18 13-10-03.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 35520,
+      "exportedPath": "images/Screenshot from 2024-08-18 13-10-03.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-19 19-27-32.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 77546,
+      "exportedPath": "images/Screenshot from 2024-08-19 19-27-32.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-19 20-00-04.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 141660,
+      "exportedPath": "images/Screenshot from 2024-08-19 20-00-04.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-20 11-46-09.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 24298,
+      "exportedPath": "images/Screenshot from 2024-08-20 11-46-09.png",
+      "dependencies": []
+    },
+    "images/Screenshot from 2024-08-20 11-48-59.png": {
+      "modifiedTime": 1724352507932,
+      "sourceSize": 2892,
+      "exportedPath": "images/Screenshot from 2024-08-20 11-48-59.png",
+      "dependencies": []
+    }
+  }
+}
