@@ -48,11 +48,11 @@
   --background-primary-alt: #0d0b12;
   --background-secondary: #191621;
   --background-secondary-alt: #0d0b12;
-  --text-normal: #bebebe;
-  --text-accent: #0fb6d6;
+  --text-normal: #fdfdfd;
+  --text-accent: #2ad60f;
   --text-sub-accent: #f4569d;
   --text-dim: #45aaff;
-  --text-faint: #7aa2f7;
+  --text-faint: #8ff77a;
   --text-title-h1: var(--text-accent);
   --text-title-h2: #cbdbe5;
   --text-title-h3: #cbdbe5;
@@ -63,17 +63,17 @@
   --text-a-hover: #6bcafb;
   --text-mark: #263d92;
   --code-background: var(--background-secondary);
-  --interactive-accent: rgba(14, 210, 247, 0.5);
-  --interactive-accent-hover: rgba(14, 210, 247, 0.8);
+  --interactive-accent: rgba(41, 247, 14, 0.5);
+  --interactive-accent-hover: rgba(45, 247, 14, 0.8);
   --interactive-before: #5e6565;
   --blockquote-border: #4aa8fb;
   --tag-background: rgba(14, 210, 247, 0.15);
   --interactive-accent-rgb: #3dd7fb;
   --font-family-editor: 'Rubik';
   --font-family-preview: 'Rubik';
-  --bg-sub-accent-55: rgba(244, 86, 157, 0.55);
-  --bg-accent-55: rgba(14, 210, 247, 0.55);
-  --bg-accent-25: rgba(14, 210, 247, 0.25);
+  --bg-sub-accent-55: rgba(49, 245, 35, 0.55);
+  --bg-accent-55: rgba(49, 247, 14, 0.55);
+  --bg-accent-25: rgba(68, 247, 14, 0.885);
   --text-highlight-bg: rgba(244, 86, 157, 0.25);
   --background-modifier-border: rgba(14, 210, 247, 0.05);
   --table-border-color: rgb(14, 210, 247, 0.15);
@@ -618,9 +618,9 @@ strong {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 0;
-  color: #7aa2f7;
-  background-color: #7aa2f7;
-  background-image: linear-gradient(62deg, #87c2fd 0%, #dcb9fc 100%) !important;
+  color: #ffffff;
+  background-color: #ffffff;
+  /*background-image: linear-gradient(62deg, #87c2fd 0%, #dcb9fc 100%) !important;*/
 }
 
 strong .math.math-inline .MathJax {
@@ -647,7 +647,7 @@ strong kbd {
 
 .cm-em,
 em {
-  color: #bb9af7 !important;
+  color: #9af7ae ;
   font-family: OperatorMonoSSmLig-Book, Rubik, var(--default-font) !important;
 }
 
@@ -689,7 +689,7 @@ em {
   -webkit-text-fill-color: var(--text-normal);
   background-position: 0 100%;
   background-repeat: repeat-x;
-  background-size: 5px 5px;
+  background-size: 1px 1px;
   text-decoration: none;
 }
 
@@ -716,7 +716,7 @@ cm-s-obsidian span.cm-link:not(.cm-formatting-link) .cm-underline {
   color: var(--text-normal);
   background-position: 0 100%;
   background-repeat: repeat-x;
-  background-size: 5px 5px;
+  background-size: 1px 1px;
   text-decoration: none;
   transition: background 350ms ease-in-out;
 }
@@ -850,7 +850,7 @@ h6 a.tag {
 }
 
 .cm-s-obsidian span.cm-inline-code {
-  color: rgba(14, 210, 247, 0.9) !important;
+  color: var(--text-accent);
 }
 
 .cm-s-obsidian span.cm-inline-code.cm-formatting-code {
@@ -1009,7 +1009,7 @@ blockquote {
   border-bottom-right-radius: 5px;
   margin-bottom: 2em;
   margin-right: 0 !important;
-  border-left: 3px rgba(14, 210, 247, 0.5) solid;
+  border-left: 3px rgba(16, 215, 13, 0.5) solid;
   border-top: transparent;
   border-bottom: transparent;
   border-right: transparent;
@@ -1024,7 +1024,7 @@ blockquote {
   left: 0px;
   height: 2px;
   width: 60%;
-  background: linear-gradient(90deg, rgba(13, 185, 215, 0.5), #13111a);
+  background: linear-gradient(90deg, rgba(16, 215, 13, 0.5), #13111a);
 }
 
 .markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote + .HyperMD-quote::before {
@@ -1039,7 +1039,7 @@ blockquote {
   left: 0px;
   height: 2px;
   width: 25%;
-  background: linear-gradient(90deg, rgba(13, 185, 215, 0.5), #15131c);
+  background: linear-gradient(90deg, rgba(16, 215, 13, 0.5), #15131c);
 }
 
 .HyperMD-quote.HyperMD-quote-2::before,
@@ -1095,7 +1095,7 @@ blockquote {
   word-wrap: break-word;
   padding: 0 5px;
   border-radius: 0.3rem;
-  color: rgba(14, 210, 247, 0.9) !important;
+  color: rgba(41, 247, 14, 0.9) !important;
 }
 
 .theme-dark :not(pre) > code[class*='language-'],

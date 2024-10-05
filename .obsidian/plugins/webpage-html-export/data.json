@@ -4,7 +4,7 @@
   "inlineAssets": true,
   "includePluginCSS": "",
   "includeSvelteCSS": true,
-  "titleProperty": "title",
+  "titleProperty": "Reset",
   "customHeadContentPath": "",
   "faviconPath": "",
   "documentWidth": "40em",
